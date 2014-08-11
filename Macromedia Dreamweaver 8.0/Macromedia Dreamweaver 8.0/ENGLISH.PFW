@@ -1,0 +1,56 @@
+[PackageForTheWeb]
+Version=2.0
+
+[Options]
+Title=Dreamweaver 8
+Company=Macromedia
+CompanyEMail=
+BasePath=D:depot\Coltrane\installers\_Full\_Installer_Project\ColtraneMSI\english\english\DiskImages\DISK1\
+ImportPath=
+UseRTF=0
+SaveFiles=0
+SubFolders=0
+ApplicationName=Dreamweaver 8
+Description=
+Comments=
+Notice=Copyright ©1997-2005 Macromedia, Inc. and its licensors.
+Version=8
+OutputSpec=D:depot\Coltrane\installers\_Full\_Installer_Project\ColtraneMSI\english\english\DiskImages\DISK1\\Install dreamweaver 8.exe
+GUIDs=0
+Type=2
+Compress=1
+Sign=0
+Transfer=0
+Files=0
+
+[Engine]
+Setup=Setup.exe
+
+[Runtime]
+Welcome=
+License=
+Prompt=
+Password=
+DefaultPath=%WINDOWS%\Downloaded Installations\Macromedia Dreamweaver 8
+Language=English
+WindowStyle=0
+Options=34
+Execute=DW_Client_Installer.exe
+CmdLine=
+AllowChangeTarget=0
+AllowDelete=0
+LaunchEXE=1
+
+[Extension]
+Server=
+Calls=0
+
+[Code Signing]
+CompanyURL=
+SpecFile=
+KeyFile=
+Method=0
+
+; ~~~~~~~~~~ File Section ~~~~~~~~~~~
+[SubFolders]
+Count=0
